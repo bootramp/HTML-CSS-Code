@@ -2,6 +2,28 @@
 <html>
     <head>
         <title>Google</title>
+        <style>
+            a{
+                color: #3d3d3d;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+            .header {
+                float: right;
+            }
+
+            .header ul li {
+                display: inline-block;
+                margin-left: 12px;
+            }
+
+            .clearfix {
+                clear: both;
+            }
+        </style>
     </head>
     <body>
         <div class="header">
@@ -12,6 +34,9 @@
                 <li><a href="#">Sign in</a></li>
             </ul>
         </div>
+
+        <div class="clearfix"></div>
+
         <div class="search-box">
             <div class="google-logo"><img src="google-logo.png" alt="Google logo"></div>
             <form action="">
